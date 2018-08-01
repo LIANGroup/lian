@@ -19,16 +19,17 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo_chinois.svg" width="200" alt="logo" class="mb-2 mt-2">
+          <img src="img/logo_chinois.svg" width="200" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,76 +46,37 @@
 
     <!-- Masthead -->
     <header class="masthead text-white">
-      <div id="particles-js">
-        <div class="overlay"></div>
+      <div>
         <div class="container">
           <div class="row">
-            <div class="col-xl-10 mx-auto">
+
+            <div class="col-xl-6 mx-auto">
               <h1 class="mb-5">One stop shop blockchain ecosystem.</h1>
               <p class='lead'>Lian Group is a team of professionals building long-term infrastructure
                 for instututional participation in the blockchain ecosystem.</p>
               <p class='lead'>We invest, build markets, connect community, manage
                 deals and innovate to make the vision reality.</p>
             </div>
-            <div class="col-xl-10 text-center mx-auto">
-              <i class="fas fa-chevron-down mt-3"></i>
-            </div>
+
+            <div id="particles-js" class="col-xl-6"></div>
+
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Icons Grid -->
-    <section id="about" class="features-icons bg-white">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto p-4">
-              <div class="features-icons-icon d-flex">
-                <i class="fas fa-list m-auto text-danger"></i>
-              </div>
-              <h4 class="text-center">360° Blockchain Asset Managements</h4>
-              <p class="text-center">Invest capital in the whoe blockchain industry.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto p-4">
-              <div class="features-icons-icon d-flex">
-                <i class="fas fa-users m-auto text-danger"></i>
-              </div>
-              <h4 class="text-center">Advisory & Community</h4>
-              <p class="text-center">Accelerate the development of blockchain platforms.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto p-4">
-              <div class="features-icons-icon d-flex">
-                <i class="fab fa-btc m-auto text-danger"></i>
-              </div>
-              <h4 class="text-center">Capital Markets</h4>
-              <p class="text-center">OTC trading desk, bespoke crypto treasury management services.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     <section id="services" class="showcase">
       <div class="container-fluid p-0">
 
         <div class="row no-gutters bg-light">
-          <div class="col-lg-6 order-lg-1 text-white text-center showcase-img bg-showcase-1">
+          <div class="col-lg-6 order-lg-1 text-white text-center showcase-img bg-showcase-1" data-aos="fade-right">
             <div class="d-flex flex-column h-100 justify-content-center">
               <h2>We build markets</h2>
               <p class="lead">Connect the community of buyers and sellers</h4>
             </div>
           </div>
 
-          <div class="col-lg-6 order-lg-2 my-auto showcase-text">
+          <div class="col-lg-6 order-lg-2 my-auto showcase-text" data-aos="fade-up">
             <h3>Intermediation</h3>
             <p class="text-secondary">We offer a global turnkey solution to our clients from account opening, crypto investment advisory, two-way liquidity brokerage, storage handling and advisory.</p>
             <h3>Intermediation</h3>
@@ -125,14 +87,14 @@
         </div>
 
         <div class="row no-gutters bg-light">
-          <div class="col-lg-6 order-lg-2 text-white text-center showcase-img bg-showcase-2">
+          <div class="col-lg-6 order-lg-2 text-white text-center showcase-img bg-showcase-2" data-aos="fade-left">
             <div class="d-flex flex-column h-100 justify-content-center">
               <h2>We build markets</h2>
               <p class="lead">Connect the community of buyers and sellers</h4>
             </div>
           </div>
 
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text" data-aos="fade-up">
             <h3>Intermediation</h3>
             <p class="text-secondary">We offer a global turnkey solution to our clients from account opening, crypto investment advisory, two-way liquidity brokerage, storage handling and advisory.</p>
             <h3>Intermediation</h3>
@@ -143,14 +105,14 @@
         </div>
 
         <div class="row no-gutters bg-light">
-          <div class="col-lg-6 order-lg-1 text-white text-center showcase-img bg-showcase-3">
+          <div class="col-lg-6 order-lg-1 text-white text-center showcase-img bg-showcase-3" data-aos="fade-right">
             <div class="d-flex flex-column h-100 justify-content-center">
               <h2>We build markets</h2>
               <p class="lead">Connect the community of buyers and sellers</h4>
             </div>
           </div>
 
-          <div class="col-lg-6 order-lg-2 my-auto showcase-text">
+          <div class="col-lg-6 order-lg-2 my-auto showcase-text" data-aos="fade-up">
             <h3>Intermediation</h3>
             <p class="text-secondary">We offer a global turnkey solution to our clients from account opening, crypto investment advisory, two-way liquidity brokerage, storage handling and advisory.</p>
             <h3>Intermediation</h3>
@@ -163,10 +125,11 @@
       </div>
     </section>
 
-    <section id="team" class="team bg-dark">
+    <section id="team" class="team bg-light">
       <div class="container">
         <div class="card-deck">
-          <div class="card">
+
+          <div class="card" data-aos="fade-up" data-aos-delay="0">
             <img class="card-img-top" src="img/testimonials-1.jpg" alt="">
             <div class="card-body">
               <h5 class="card-title">Card Title</h5>
@@ -176,7 +139,8 @@
               <small class="text-muted">Footer info</small>
             </div>
           </div>
-          <div class="card">
+
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
             <img class="card-img-top" src="img/testimonials-2.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -186,7 +150,8 @@
               <small class="text-muted">Footer info</small>
             </div>
           </div>
-          <div class="card">
+
+          <div class="card" data-aos="fade-up" data-aos-delay="400">
             <img class="card-img-top" src="img/testimonials-3.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -245,9 +210,21 @@
     <!-- Particles -->
     <script type="text/javascript" src="js/particles.js"></script>
     <script>
-      particlesJS.load('particles-js', 'js/particles.json', function() {
+      particlesJS.load('particles-js', 'js/particles.min.json', function() {
         console.log('callback - particles.js config loaded');
       });
+    </script>
+
+    <!-- Smooth scroll -->
+    <script type="text/javascript" src="js/scroll.js"></script>
+
+    <!-- Navbar color -->
+    <!-- <script type="text/javascript" src="js/navbar-color.js"></script> -->
+
+    <!-- AOS -->
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
   </body>
