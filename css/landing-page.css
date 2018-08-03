@@ -17,7 +17,7 @@ h6 {
 }
 
 .navbar {
-  height: 100px;
+  min-height: 100px;
 }
 
 header.masthead {
