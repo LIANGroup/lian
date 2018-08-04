@@ -17,7 +17,7 @@ h6 {
 }
 
 .navbar {
-  height: 100px;
+  min-height: 100px;
 }
 
 header.masthead {
@@ -42,7 +42,7 @@ header.masthead {
 }
 
 .logo {
-  max-width: 8rem;
+  max-height: 12rem;
 }
 
 #contact {
