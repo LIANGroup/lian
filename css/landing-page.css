@@ -36,6 +36,11 @@ header.masthead {
   padding-bottom: 6rem;
 }
 
+.vqf {
+  -webkit-filter: brightness(180%); /* Safari 6.0 - 9.0 */
+  filter: brightness(180%);
+}
+
 #portfolio {
   padding-top: 3rem;
   padding-bottom: 3rem;
