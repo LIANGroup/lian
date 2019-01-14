@@ -1,10 +1,17 @@
+@font-face {
+font-family: 'Proxima Nova Alt Light';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova Alt Light'), url('Mark Simonson - Proxima Nova Alt Light.woff') format('woff');
+}
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Proxima Nova Alt Light', sans-serif;
   overflow-x: hidden;
 }
 
 h1 {
-  font-family: 'Lora', serif;
+  font-family: 'Proxima Nova Alt Light', sans-serif;
 }
 
 h2,
