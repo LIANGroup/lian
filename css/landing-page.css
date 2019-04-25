@@ -81,7 +81,7 @@ header.masthead {
       rgba(10, 0, 10, 0.8),
       rgba(10, 0, 10, 0.8)
     ),
-    url('../img/advice.jpg') no-repeat center center;
+    url('../img/estate.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,6 +89,19 @@ header.masthead {
 }
 
 .bg-showcase-3 {
+  background:
+    linear-gradient(
+      rgba(10, 0, 10, 0.8),
+      rgba(10, 0, 10, 0.8)
+    ),
+    url('../img/advice.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-showcase-4 {
   background:
     linear-gradient(
       rgba(10, 0, 10, 0.8),
