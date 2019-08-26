@@ -65,8 +65,8 @@ header.masthead {
 .bg-showcase-1 {
   background:
     linear-gradient(
-      rgba(211, 139, 24, 0.3),
-      rgba(211, 139, 24, 0.3)
+      rgba(211, 139, 24, 0.1),
+      rgba(211, 139, 24, 0.1)
     ),
     url('../img/roads.jpg') no-repeat center center;
     -webkit-background-size: cover;
