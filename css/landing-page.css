@@ -139,7 +139,17 @@ header.masthead h1 {
   padding: 3rem;
 }
 
-.text-danger {
+.fa-envelope {
+background-color:#d38b18;
+color:#d38b18;
+}
+
+.fa-linkedin {
+background-color:#d38b18;
+color:#d38b18;
+}
+
+.btn-danger {
 background-color:#d38b18;
 color:#d38b18;
 }
