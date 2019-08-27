@@ -139,8 +139,9 @@ header.masthead h1 {
   padding: 3rem;
 }
 
-.fun {
-background-color: rgb(0, 98. 137);
+.text-danger {
+background-color:#d38b18;
+color:#d38b18;
 }
 
 .showcase .showcase-img {
