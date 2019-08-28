@@ -68,7 +68,7 @@ header.masthead {
       rgba(211, 139, 24, 0.3),
       rgba(211, 139, 24, 0.3)
     ),
-    url('../img/pat.jpg') no-repeat center center;
+    url('../pat.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
